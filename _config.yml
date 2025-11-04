@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Matthew Sonn
 description              : Matthew Sonn - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "fa25-portfolio-matthew_sonn" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
