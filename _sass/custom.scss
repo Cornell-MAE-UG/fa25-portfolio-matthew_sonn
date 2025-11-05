@@ -1,7 +1,7 @@
 // Default to light theme
 $primary-color: #3a3f58;
 $background-color: #f7f8fa;
-$text-color: #333;
+$text-color: #fff;
 
 // Set theme colors based on the color_scheme variable
 @if $color_scheme == 'dark' {
@@ -33,7 +33,7 @@ body {
   line-height: 1.6;
 
   // Replace solid color with gradient
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background: #363636
   
   color: $text-color;
   margin: 0;
