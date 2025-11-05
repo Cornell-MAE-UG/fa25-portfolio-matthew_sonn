@@ -31,7 +31,10 @@ h1 {
 body {
   font-family: "Open Sans", 'Montserrat', 'Helvetica Neue' sans-serif;
   line-height: 1.6;
-  background-color: $background-color;
+
+  // Replace solid color with gradient
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  
   color: $text-color;
   margin: 0;
   padding: 0;
