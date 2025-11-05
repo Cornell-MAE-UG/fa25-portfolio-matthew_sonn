@@ -6,8 +6,7 @@ title: <Your Name>
 ## About Me
 
 
-<img src="{{ 'assets/images/profile-pic.jpg' | relative_url }}" alt="Profile Picture" style="width:400px; height:auto; border-radius:0; display:block; margin:auto;">
-
+<img src="{{ 'assets/images/profile-pic.jpg' | relative_url }}" alt="Profile Picture" style="width:300px; height:auto; float:left; margin-right:20px; margin-bottom:10px; border-radius:0;">
  
 My name is {{ site.name }}, and I am a junior mechanical engineering student at Cornell University with an aerospace engineering minor. I am passionate about applying physical and mathematical models to analyze real-world systems and improve design, performance, and reliability. My coursework in dynamic systems and control, mechanical design, material analysis, and spaceflight mechanics has given me a strong analytical and technical foundation, while my experience as a physics electromagnetism teaching assistant has strengthened my ability to convey complex, technical concepts and collaborate effectively with others.
 
