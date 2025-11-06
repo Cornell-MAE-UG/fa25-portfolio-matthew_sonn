@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Spaceship Design
-description: Just a spaceship that I designed
-technologies: [SolidWorks, Machining]
+title: Skeezy - Mechanical Design Project
+description: Ski Backpack Attachment
+technologies: [Autodesk Fusion]
 image: /assets/images/spaceship-design.jpg
 ---
 
