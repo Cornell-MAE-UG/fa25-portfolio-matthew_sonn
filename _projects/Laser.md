@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
-technologies: [MATLAB, python]
+title: Laser Construction
+description: Built a Nitrogen Laser
+technologies: [Soldering, Circuit Analysis, Circuit Organization]
 image: /assets/images/function-graph.png
 ---
 
