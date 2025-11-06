@@ -8,7 +8,7 @@ image: /assets/images/laser-pic.jpg
 
 <video src="{{ 'assets/laser-operation.MP4' | relative_url }}" controls muted preload="none" style="width: 400px; border-radius: 10px;"></video>
 
-[NITROGEN LASER REPORT]({{ "assets/AEP 1110 Construction Lab Report.pdf" | relative_url }}).
+[NITROGEN LASER REPORT]({{ "assets/AEP 1110 Construction Lab Report.pdf" | relative_url }})
 
 For this project I helped build and test a nitrogen laser system made up of a pulse generator, the pulse amplifier circuit I constructed, and a chassis unit that holds the laser tube and high voltage discharge hardware. We wired these subsystems so that the low voltage pulse generator triggers the pulse amplifier, which in turn delivers a fast, high voltage pulse to the chassis to create a discharge in nitrogen gas and produce laser light. As part of this work I learned the basic physics behind lasers, including spontaneous and stimulated emission, population inversion in nitrogen, and why a short, intense electric pulse is needed to drive the gas into a lasing state. A video of the laser operating is included in my portfolio, and it is intentionally dark so the laser beam and glow from the discharge are clearly visible.
 
