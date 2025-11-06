@@ -42,6 +42,9 @@ and analysis techniques—including driven oscillation physics, Fourier analysis
 ---
 
 #### Work Experience
+- **Jane Street Capital - Incoming Mechanical Engineering Intern**  
+  May, 2026 - August, 2026
+  
 - **Wick Fisher White - Mechanical HVAC Engineering Intern**  
   May, 2025 - August, 2025  
   - Performed detailed building load calculations using TRACE 3D to determine airflow, ventilation, and equipment sizing for large
