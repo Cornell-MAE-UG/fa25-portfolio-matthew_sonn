@@ -3,7 +3,7 @@ layout: project
 title: Skeezy
 description: Ski Backpack Attachment
 technologies: [Autodesk Fusion]
-image: /assets/images/spaceship-design.jpg
+image: /assets/images/Screenshot 2025-05-12 150920.png
 ---
 
 
