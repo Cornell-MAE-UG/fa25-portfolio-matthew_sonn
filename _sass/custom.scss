@@ -212,4 +212,11 @@ footer {
   transform: translateX(-4px);
 }
 
+.gallery-item img {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 3 / 5 !important;   /* tall portrait */
+  object-fit: cover !important;
+  display: block !important;
+}
 
