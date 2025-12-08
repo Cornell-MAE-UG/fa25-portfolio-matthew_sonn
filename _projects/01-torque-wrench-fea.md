@@ -24,7 +24,7 @@ A baseline design was provided, and I worked in a group to write a script that w
 
 **Dimensions:** L = 16 in; h = 0.52 in; b = 0.45 in; c = 0.25 in
 
-**Results:** load point deflection = 0.3348 in; max normal stress = 29.6 ksi; safety factor for strength = 4.3264; safety factor for crack growth = 2.0943; safety factor for fatigue = 2.3390; strain at gauge = 0.0010; strain gauge output = 1.0043 mV/V
+**Results that Meet the Design Requirements:** load point deflection = 0.3348 in; max normal stress = 29.6 ksi; safety factor for strength = 4.3264; safety factor for crack growth = 2.0943; safety factor for fatigue = 2.3390; strain at gauge = 0.0010; strain gauge output = 1.0043 mV/V
 
 The Torque Wrench with the improved design geometry was rendered in Fusion 360, then imported to ANSYS. An image of the Fusion Model labeled with the relevant dimensions is below:
 
