@@ -23,3 +23,7 @@ A baseline design was provided, and I worked in a group to write a script that w
 **Material:** Carbon Steel, AISI 1080, oil quenched & tempered at 315 degrees Celsius
 
 **Dimensions:** L = 16 in; h = 0.52 in; b = 0.45 in; c = 0.25 in
+
+The Torque Wrench with the improved design geometry was rendered in Fusion 360, then imported to ANSYS. An image of the Fusion Model labeled with the relevant dimensions is below:
+
+![torquewrenchsetup]({{ "assets/images/Screenshot 2025-12-07 231013.png" | relative_url }}){: .inline-image-c style="width: 600px"}
