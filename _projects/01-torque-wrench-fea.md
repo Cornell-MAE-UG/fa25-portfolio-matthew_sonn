@@ -44,5 +44,7 @@ The contour plot of maximum principal stresses from the FEM are below:
 
 ![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.5-maxprincipalstresses-anotherview.png" | relative_url }}){: .inline-image-c style="width: 600px"}
 
-Maximum Normal Stress from the FEM: 68.1 ksi
+Maximum Normal Stress from the FEM (contours below): 68.1 ksi
+
+![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.6-maxnormalstress.png" | relative_url }}){: .inline-image-c style="width: 600px"}
 
