@@ -20,7 +20,7 @@ My final project for MAE 3270: Mechanics of Engineering Materials was to design 
 
 A baseline design was provided, and I worked in a group to write a script (see below) that we could use to iterate on the baseline design to create a better design. More details on the baseline design and Finite Element Analysis performed on the baseline design can be found in the preliminary report [here]({{ "assets/MAE 3270 Final Project Part I.pdf" | relative_url }}). 
 
-```matlab
+```octave
 M = 600; % max torque (in-lbf)
 L = 16; % length from drive to where load applied (inches)
 h = 0.75; % width
