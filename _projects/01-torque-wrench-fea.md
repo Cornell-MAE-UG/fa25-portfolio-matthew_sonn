@@ -48,3 +48,7 @@ Maximum Normal Stress from the FEM (contours below): 68.1 ksi
 
 ![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.6-maxnormalstress.png" | relative_url }}){: .inline-image-c style="width: 600px"}
 
+The deflection of the load point from the FEM (contours below): 0.38314 in
+
+![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.6-deflection.png" | relative_url }}){: .inline-image-c style="width: 600px"}
+
