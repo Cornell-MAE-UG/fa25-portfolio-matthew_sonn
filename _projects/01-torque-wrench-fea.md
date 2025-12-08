@@ -18,7 +18,42 @@ My final project for MAE 3270: Mechanics of Engineering Materials was to design 
 - Fatigue stress safety factor of X = 1.5
 - Material must bee a steel, aluminum, or titanium alloy
 
-A baseline design was provided, and I worked in a group to write a script that we could use to iterate on the baseline design to create a better design. More details on the baseline design and Finite Element Analysis performed on the baseline design can be found in the preliminary report [here]({{ "assets/MAE 3270 Final Project Part I.pdf" | relative_url }}). Using the script and the Granta software, we found a material and iterated through dimensions to find a combination that met all of the requirements:
+A baseline design was provided, and I worked in a group to write a script (see below) that we could use to iterate on the baseline design to create a better design. More details on the baseline design and Finite Element Analysis performed on the baseline design can be found in the preliminary report [here]({{ "assets/MAE 3270 Final Project Part I.pdf" | relative_url }}). 
+
+```matlab
+M = 600; % max torque (in-lbf)
+L = 16; % length from drive to where load applied (inches)
+h = 0.75; % width
+b = 0.5; % thickness
+c = 1.0; % distance from center of drive to center of strain gauge
+E = 32.E6; % Young's modulus (psi)
+nu = 0.29; % Poisson's ratio
+su = 370.E3; % tensile strength use yield or ultimate depending on material (psi)
+KIC = 15.E3; % fracture toughness (psi sqrt(in))
+sfatigue = 115.e3; % fatigue strength from Granta for 10^6 cycles
+name = 'M42 Steel'; % material name
+% Find Load Point Deflection and Max Normal Stress:
+F = M/L;
+r = h/2;
+I = (b*h^3)/12;
+loadpointdeflection = (M*L^2)/(3*E*I)
+maxnormalstress = M*r/I
+% Find Safety Factors:
+a = 0.04;
+x = a/h;
+Y = 1.12;
+Kmax = Y*maxnormalstress*sqrt(pi*a);
+sf_strength = su/maxnormalstress
+sf_crackgrowth = KIC/Kmax
+sf_fatigue = sfatigue/maxnormalstress
+%Find Strain Gauge Results:
+bendingstress = F*(L-c)*r/I;
+strainatgauge = bendingstress/E
+output = strainatgauge*1e3 %mV/V
+```
+
+
+Using the script and the Granta software, we found a material and iterated through dimensions to find a combination that met all of the requirements:
 
 **Material:** Carbon Steel, AISI 1080, oil quenched & tempered at 315 degrees Celsius
 
