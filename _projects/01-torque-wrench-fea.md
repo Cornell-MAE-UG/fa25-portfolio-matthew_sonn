@@ -33,3 +33,11 @@ The material chosen is Carbon steel, AISI 1080, oil quenched & tempered at 315 d
 The CAD model was then imported into ANSYS, and boundary conditions were applied. The drive is 0.5" tall, but clamped boundary conditions were only applied to the upper 0.4" of the drive, leaving the 0.1" below it free. A force of 37.5 lbf, which equates to a moment of 600 in-lbf was applied to the end of the rod, a distance L from the center of the drive (L=16").
 
 ![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.3-final.png" | relative_url }}){: .inline-image-c style="width: 600px"}
+
+The model was run with the applied boundary conditions and the updated geometry. The normal strain contours in the strain gauge direction (z) are below:
+
+![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.4-normalstraincontours.png" | relative_url }}){: .inline-image-c style="width: 600px"}
+
+The contour plot of maximum principal stresses from the FEM are below:
+
+![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.5-maxprincipalstresses-anotherview.png" | relative_url }}){: .inline-image-c style="width: 600px"}
