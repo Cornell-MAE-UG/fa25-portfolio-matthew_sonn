@@ -61,3 +61,10 @@ From this strain, the torque wrench sensitivity in mV/V measured from the FEM is
 - Quarter-bridge output: DeltaV/V = (GF * epsilon) / 4
 - Half-bridge output: DeltaV/V = (GF * epsilon) / 2
 - Full-bridge output: DeltaV/V = GF * epsilon
+
+Using a typical gauge factor of 2.1 and the FEA strain epsilon = 930 microstrain, the predicted full-scale electrical outputs are:
+
+- Quarter-bridge: .488 mV/V
+- Half-bridge: .976 mV/V
+- Full-bridge: 1.95 mV/V
+
