@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench Design & FEM
 description: Designing a torque wrench based on a FEM
 technologies: [Autodesk Fusion, MATLAB, ANSYS]
-image: /assets/images/damper.jpg
+image: /assets/images/MAE3270-5.2.1.6-deflection.png
 ---
 
 As a member of Cornell Seismic Design, I was heavily involved in the design, construction, testing, and analysis of a cable dampening system for the 5-ft tall balsa wood structure. In order to reduce the amplitude and velocity of our building's oscillations, we implemented cross-body cables on each face of the building that went into tension, pulling the building back to its equilibrium position when the building was shaken under a simulated earthquake. 
