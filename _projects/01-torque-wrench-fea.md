@@ -52,7 +52,7 @@ The deflection of the load point from the FEM (contours below): 0.38314 in
 
 ![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.6-deflection.png" | relative_url }}){: .inline-image-c style="width: 600px"}
 
-The strain at the strain gauge location (c = 0.25 in) was also determined by the FEM: 930 microstrain
+The strain at the strain gauge location (c = 0.25 in) was also determined by the FEM which is shown below: 930 microstrain
 
 ![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.6-strainatgauge.png" | relative_url }}){: .inline-image-c style="width: 600px"}
 
