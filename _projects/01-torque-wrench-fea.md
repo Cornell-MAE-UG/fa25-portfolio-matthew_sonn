@@ -55,3 +55,5 @@ The deflection of the load point from the FEM (contours below): 0.38314 in
 The strain at the strain gauge location (c = 0.25 in) was also determined by the FEM: 930 microstrain
 
 ![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.6-strainatgauge.png" | relative_url }}){: .inline-image-c style="width: 600px"}
+
+From this strain, the torque wrench sensitivity in mV/V measured from the FEM is around 0.903 mV/V.
