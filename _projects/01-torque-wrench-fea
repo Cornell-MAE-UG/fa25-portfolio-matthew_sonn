@@ -7,3 +7,9 @@ image: /assets/images/Screenshot 2025-12-07 215932.png
 ---
 
 My final project for MAE 3270: Mechanics of Engineering Materials was to design a torque wrench's dimensions and choose a material such that it meets the following requirements:
+
+- Attain at least 1.0 mV/V output at the rated torque of 600 in-lbf
+- Safety factor of X=4 for yield or brittle failure
+- Safety factor of X=2 for crack growth from an assumed crack of depth 0.04 inches (1 mm)
+- Fatigue stress safety factor of X = 1.5
+- Material must bee a steel, aluminum, or titanium alloy
