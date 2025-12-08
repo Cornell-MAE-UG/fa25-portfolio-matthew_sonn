@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Torque Wrench Design: FEA
-description: Cable Damper Mechanical Design
-technologies: [Autodesk Fusion, MATLAB, Fourier Analysis]
+description: Using FEA to design a torque wrench
+technologies: [Autodesk Fusion, MATLAB, ANSYS]
 image: /assets/images/damper.jpg
 ---
 
