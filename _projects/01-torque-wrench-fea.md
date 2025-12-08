@@ -8,7 +8,7 @@ image: /assets/images/Screenshot 2025-12-07 215932.png
 ---
 
 
-![torquewrenchsetup]({{ "assets/images/Screenshot 2025-12-07 224150.png" | relative_url }}){: .inline-image-l style="width: 400px"}
+![torquewrenchsetup]({{ "assets/images/Screenshot 2025-12-07 224150.png" | relative_url }}){: .inline-image-r style="width: 400px"}
 
 My final project for MAE 3270: Mechanics of Engineering Materials was to design a torque wrench's dimensions and choose a material such that it meets the following requirements:
 
