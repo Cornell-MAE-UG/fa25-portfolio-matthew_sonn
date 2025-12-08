@@ -29,4 +29,7 @@ The Torque Wrench with the improved design geometry was rendered in Fusion 360, 
 ![torquewrenchsetup]({{ "assets/images/Screenshot 2025-12-07 231013.png" | relative_url }}){: .inline-image-c style="width: 600px"}
 
 The material chosen is Carbon steel, AISI 1080, oil quenched & tempered at 315 degrees Celsius. AISI 1080 is a high-carbon steel (≈0.80% C) known for developing very high hardness and strength after heat treatment. When oil-quenched from the austensizing temperature and tempered at 315 °C, the microstructure becomes tempered martensite, providing a balance of tensile strength, high yield strength, and good elastic modulus retention. Tempering at this intermediate temperature reduces brittleness while preserving the high hardness needed for resisting wear and maintaining dimensional stability under repeated loading.
+
 The CAD model was then imported into ANSYS, and boundary conditions were applied. The drive is 0.5" tall, but clamped boundary conditions were only applied to the upper 0.4" of the drive, leaving the 0.1" below it free. A force of 37.5 lbf, which equates to a moment of 600 in-lbf was applied to the end of the rod, a distance L from the center of the drive (L=16").
+
+![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.3-final.png" | relative_url }}){: .inline-image-c style="width: 600px"}
