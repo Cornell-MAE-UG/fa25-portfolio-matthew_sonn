@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Cornell Seismic Design '24-'25
+title: Torque Wrench Design: FEA
 description: Cable Damper Mechanical Design
 technologies: [Autodesk Fusion, MATLAB, Fourier Analysis]
 image: /assets/images/damper.jpg
