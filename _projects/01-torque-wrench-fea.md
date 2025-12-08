@@ -62,15 +62,15 @@ From this strain, the torque wrench sensitivity in mV/V measured from the FEM is
 - Half-bridge output: DeltaV/V = (GF * epsilon) / 2
 - Full-bridge output: DeltaV/V = GF * epsilon
 
-Using a typical gauge factor of 2.1 and the FEA strain epsilon = 930 microstrain, the predicted full-scale electrical outputs are:
+Using a typical gauge factor of 2.1 and the FEM strain epsilon = 930 microstrain, the predicted full-scale electrical outputs are:
 
 - Quarter-bridge: .488 mV/V
 - Half-bridge: .976 mV/V
 - Full-bridge: 1.95 mV/V
 
-These values represent the torque-wrench sensitivity for the torque level applied in the FEA model (600 in-lbf).
+These values represent the torque-wrench sensitivity for the torque level applied in the FEM (600 in-lbf).
 
 **Strain Gauge Selection:** 
 
 ![torquewrenchsetup]({{ "assets/images/Screenshot 2025-12-07 235451.png" | relative_url }}){: .inline-image-r style="width: 400px"}
-Four matched 350-ohm constantan linear foil gauges (e.g., Micro-Measurements CEA-series), .01 in gauge length, arranged in a full-bridge bending configuration with a GF of 2.11 +- 1.0%. The strain gauge selection was based on the available mounting width of less than 0.45 in (.31 in) and the need to measure the principal bending strain identified in the FEA. A linear foil gauge was required to align with the dominant strain direction, and a gauge length between 0.125 and 0.25 in was chosen to provide adequate strain averaging while keeping the backing width (~0.20 in) within the geometric limit. A 350-ohm constantan foil gauge was selected to minimize self-heating and ensure stable output. A full-bridge configuration would ideally be chosen to maximize sensitivity, improve temperature compensation, and provide a balanced bending-strain measurement suitable for torque wrench calibration.
+Four matched 350-ohm constantan linear foil gauges (e.g., Micro-Measurements CEA-series), .01 in gauge length, arranged in a full-bridge bending configuration with a GF of 2.11 +- 1.0%. The strain gauge selection was based on the available mounting width of less than 0.45 in (.31 in) and the need to measure the principal bending strain identified in the FEM. A linear foil gauge was required to align with the dominant strain direction, and a gauge length between 0.125 and 0.25 in was chosen to provide adequate strain averaging while keeping the backing width (~0.20 in) within the geometric limit. A 350-ohm constantan foil gauge was selected to minimize self-heating and ensure stable output. A full-bridge configuration would ideally be chosen to maximize sensitivity, improve temperature compensation, and provide a balanced bending-strain measurement suitable for torque wrench calibration.
