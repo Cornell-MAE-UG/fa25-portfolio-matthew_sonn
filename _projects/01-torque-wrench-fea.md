@@ -56,4 +56,8 @@ The strain at the strain gauge location (c = 0.25 in) was also determined by the
 
 ![torquewrenchsetup]({{ "assets/images/MAE3270-5.2.1.6-strainatgauge.png" | relative_url }}){: .inline-image-c style="width: 600px"}
 
-From this strain, the torque wrench sensitivity in mV/V measured from the FEM is around 0.903 mV/V.
+From this strain, the torque wrench sensitivity in mV/V measured from the FEM is around 0.903 mV/V. Although the hand calculations give a value that meets the sensitivity requirement of 1 mV/V, the FEM produces a slightly lower value. In order to be safe, we can select a full-bridge strain gauge that will double our sensitivity: The maximum principal strain available for measurement at the intended probe location is approximately 930 microstrain. This strain value corresponds to the applied torque used in the ANSYS simulation and therefore represents the full-scale operating strain for the sensor installation. A foil strain gauge bonded at this location produces an electrical output proportional to strain through the gauge factor, GF. For small strains, the bridge output of a Wheatstone bridge can be approximated with the following standard relationships:
+
+- Quarter-bridge output: DeltaV/V = (GF * epsilon) / 4
+- Half-bridge output: DeltaV/V = (GF * epsilon) / 2
+- Full-bridge output: DeltaV/V = GF * epsilon
