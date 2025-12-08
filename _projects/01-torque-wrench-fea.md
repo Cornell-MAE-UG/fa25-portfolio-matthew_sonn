@@ -18,4 +18,6 @@ My final project for MAE 3270: Mechanics of Engineering Materials was to design 
 - Fatigue stress safety factor of X = 1.5
 - Material must bee a steel, aluminum, or titanium alloy
 
-A baseline design was provided, and I worked in a group to write a script that we could use to iterate on the baseline design to create a better design. More details on the baseline design and Finite Element Analysis performed on the baseline design can be found in the preliminary report [here]({{ "assets/MAE 3270 Final Project Part I.pdf" | relative_url }}). Using the script and the Granta software, we found a material and iterated through dimensions to find a combination that met all of the requirements. 
+A baseline design was provided, and I worked in a group to write a script that we could use to iterate on the baseline design to create a better design. More details on the baseline design and Finite Element Analysis performed on the baseline design can be found in the preliminary report [here]({{ "assets/MAE 3270 Final Project Part I.pdf" | relative_url }}). Using the script and the Granta software, we found a material and iterated through dimensions to find a combination that met all of the requirements:
+**Material:** Carbon Steel, AISI 1080, oil quenched & tempered at 315 degrees Celsius
+**Dimensions:** L = 16 in; h = 0.52 in; b = 0.45 in; c = 0.25 in
