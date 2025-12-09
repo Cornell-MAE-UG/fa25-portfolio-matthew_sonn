@@ -3,6 +3,7 @@ layout: project
 markdown: 1
 title: Fluid Mechanical Dissection - Inkjet Printer
 description: Inkjet printer Dissection
+technologies: [Power tools, iMovie]
 image: /assets/images/IMG_6974.png
 ---
 
