@@ -149,7 +149,7 @@ footer {
 
 .project-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150x, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 20px;
   padding: 20px;
   max-width: 1200px;
