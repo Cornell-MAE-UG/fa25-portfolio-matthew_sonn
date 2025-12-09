@@ -3,7 +3,7 @@ layout: project
 title: Active Control Design for Vibrating Buildings
 description: System Dynamics Final Project
 technologies: [MATLAB, Vibrations, Modal Analysis, Control Systems, Second Order Dynamic Systems]
-image: /assets/images/IMG_6974.png
+image: /assets/images/Screenshot 2025-12-09 160226.png
 ---
 
 REPORT LINKED HERE
