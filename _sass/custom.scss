@@ -206,3 +206,22 @@ footer {
   transform: translateX(-4px);
 }
 
+@media (max-width: 768px) {
+  .project-gallery {
+    grid-template-columns: 1fr !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .gallery-container {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+  }
+}
