@@ -154,16 +154,6 @@ footer {
   margin: 0 auto;
 }
 
-@media (max-width: 600px) {
-  .project-gallery {
-    grid-template-columns: 1fr;   // one per row
-  }
-
-  .gallery-item img {
-    width: 90%;                   // keep images reasonable
-  }
-}
-
 
 .gallery-item {
   display: flex;
