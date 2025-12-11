@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Cornell Seismic Design '24-'25
-description: Cable Damper Mechanical Design
-technologies: [Autodesk Fusion, MATLAB, Fourier Analysis]
+title: Spaceflight Mechanics Homework Portfolio
+description: HW portfolio for MAE 4060
+technologies: [MATLAB, Calculus, Linear Algebra, Rigid Body Dynamics]
 image: /assets/images/damper.jpg
 ---
 
