@@ -6,7 +6,7 @@ technologies: [MATLAB, Calculus, Linear Algebra, Rigid Body Dynamics]
 image: /assets/images/ISS-scaled.jpeg
 ---
 
-HOMEWORK PORTFOLIO HERE
+[HOMEWORK PORTFOLIO HERE]({{ "assets/Cornell University SDC 2025 Proposal.pdf" | relative_url }}).
 
 For MAE 4060: Spaceflight Mechanics, we were required to complete all of our homeworks and submit as one PDF at the end of the semester. In these homeworks, I demonstrate knowledge and proficiency with the following skills:
 
